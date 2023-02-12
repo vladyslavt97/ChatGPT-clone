@@ -16,10 +16,6 @@ const [chats, loading, error] = useCollection(
     )
 );
 
-console.log('chats: ', chats);
-console.log('session', session);
-
-
 return (
     <div className="flex p-2 flex-col h-screen">
         <div className="flex-1">

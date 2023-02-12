@@ -27,7 +27,6 @@ function ChatInput({chatId}: Props) {
         if(!prompt) return;
 
         const input = prompt.trim();
-        console.log('inputt: ', input);
         
         setPrompt('');
 
