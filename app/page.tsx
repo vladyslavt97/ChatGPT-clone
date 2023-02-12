@@ -7,7 +7,7 @@ function HomePage() {
         <h1 className='text-5xl font-bold mb-20'>ChatGPT</h1>
 
 
-        <div className='hidden sm:hidden lg:flex space-x-2 text-center' id='notmobile'>
+        <div className='hidden md:flex space-x-2 text-center' id='notmobile'>
             <div>
                 <div className='flex flex-col items-center justify-center mb-5'>
                     {/* Sun Icon */}
@@ -25,10 +25,9 @@ function HomePage() {
             </div>
 
             {/* second */}
-            <div>
-                <div className='flex flex-col items-center justify-center mb-5'>
-                    {/* Sun Icon */}
-                    <BoltIcon className='h-8 w-8'/>
+            {/* <div>
+                <div className='flex flex-col items-center justify-center mb-5'> */}
+                    {/* <BoltIcon className='h-8 w-8'/>
                     <h2>Capabilities</h2>
                 </div>
 
@@ -39,12 +38,11 @@ function HomePage() {
                     </p>
                     <p className='infoText'>Hot Toast notifications when ChatGPT is thinking!</p>
                 </div>
-            </div>
+            </div> */}
 
             {/* third */}
-            <div>
+            {/* <div>
                 <div className='flex flex-col items-center justify-center mb-5'>
-                    {/* Sun Icon */}
                     <ExclamationTriangleIcon className='h-8 w-8'/>
                     <h2>Limitations</h2>
                 </div>
@@ -56,7 +54,7 @@ function HomePage() {
                     </p>
                     <p className='infoText'>Limited knowledge of world and events after 2021</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )
