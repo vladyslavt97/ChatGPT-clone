@@ -17,7 +17,6 @@ function NewChat() {
                 userId: session?.user?.email!,
                 createdAt: serverTimestamp()
         });
-
         router.push(`/chat/${doc.id}`)
     }
 
