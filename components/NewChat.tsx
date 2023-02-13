@@ -27,5 +27,4 @@ function NewChat() {
     </div>
   )
 }
-
 export default NewChat
