@@ -6,8 +6,5 @@ The most exciting peoject up to date.
 
 Npm packages I used: react-select, openai, swr, firebase-admin, react-hot-toast, react-firebase-hooks, firebase, next-auth, heroicons/react
 
-<<<<<<< HEAD
+
 Create a project with Next.js, Tailwind and TypeScript: npx create-next-app -e with-tailwindcss "name of your project"
-=======
-Create a project with Next.js, Tailwind and TypeScript: npx create-next-app -e with-tailwindcss "name of your project"
->>>>>>> refs/remotes/origin/main
